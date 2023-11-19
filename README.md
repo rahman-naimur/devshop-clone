@@ -1,2 +1,2 @@
-# devshop-clone
+# Devshop-Clone
 ## Naimur __X__ Sourav
