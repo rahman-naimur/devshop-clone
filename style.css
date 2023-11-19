@@ -610,3 +610,43 @@ div.product-card:hover{
 
 /* Devoloper Feed-back End  */
 
+
+/* About-Me  Start  */
+
+ #About-me{
+    padding-inline: 20px;
+    padding-top: 30px;
+ }
+
+ .about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+ }
+
+ .about-me h2{
+    font-weight: 500;
+ 
+ }
+
+ .about-me p{
+    color: #7e7a7a;
+    font-weight: 300;
+    line-height: 1.5rem;
+ }
+
+ .about-me button{
+    padding: 8px 15px;
+    border: #ebecee solid 1px ;
+    color: #211f1f;
+    border-radius: 6px;
+ }
+
+/* About-Me  End  */
+
+
+
