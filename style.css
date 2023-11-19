@@ -26,7 +26,7 @@ body{
    align-items: center;
    justify-content: space-between;
    padding-inline: 20px;
-   padding-top: 20px;
+   padding-block: 20px;
  }
 
  div.logo img{
@@ -73,11 +73,69 @@ body{
     display: inline-block;
     font-size: 14px;
  }
-
-
-
-
-
  
 /* Header-section End  */
 
+
+/* nav section start  */
+
+
+/* menu-bar desaign */
+ 
+ #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    background-color: #E6EFFD;
+    padding-block: 10px;
+
+    
+ }
+
+ div.menu ul{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+ }
+
+ div.menu li{
+    list-style: none;
+ }
+
+ div.menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: 0.5s ease background-color;
+    border-radius: 25px;
+    padding: 10px;
+ }
+
+
+ div.menu a:hover , .active{
+    background-color: #C3D0FE;
+  
+ }
+/* menu-bar end  */
+
+
+ /* user-car start  */
+
+    .user-cart{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .user-cart i{
+        font-size: 20px;
+        padding: 12px;
+        background-color: white;
+        border-radius: 50%;
+    }
+
+ /* user-car End  */
+
+/* nav section End  */
