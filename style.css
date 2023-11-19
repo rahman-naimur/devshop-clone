@@ -2,3 +2,82 @@
     margin: 0;
     padding: 0;
 }
+
+    /* Div logo part */
+
+.header{
+    display: flex;
+}
+
+.logo-div{
+    margin: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.logo{
+    max-width: 200px;
+}
+
+    /* Div search Box */
+.search-box{
+   display: flex;
+   margin-top: 15px;
+   margin-bottom: 20px;
+}
+
+#search{
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search-box i{
+   font-size: 20px;
+   background-color: rgb(82,107,233);
+   padding: 10px;
+   border-radius: 50%;
+   color: #ffffff;
+   margin-left: 15px;
+   cursor: pointer;
+}
+
+
+    /* Contact */
+
+.contact{
+    margin-left: 15px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.contact i{
+    font-size: 20px;
+    padding: 10px;
+}
+.sub-contact{
+    margin: 5px;
+}
+.sub-contact p{
+    margin: 0px;
+    font-size: 17px;
+}
+.color{
+    color: rgb(82, 82, 223);
+}
+
+    /* abroad */
+
+.abroad{
+    margin-left: 15px;
+    display: flex;
+    margin: 15px;
+}
+.abroad i{
+    font-size: 20px;
+    padding: 10px;
+}
+.abroad div{
+    margin: 5px;
+    padding: 0px;
+}
