@@ -166,7 +166,7 @@ button{
  div.hero .left{
 
     
-    background: linear-gradient(rgba(24, 24, 24, 0.72),rgba(20, 16, 16, 0.617)), url("photos/photo4.png") center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.306),rgba(0, 0, 0, 0.728)), url("photos/photo4.png") center no-repeat;
     background-size: cover;
     flex-grow: 1;
     border-radius: 10px;
@@ -215,7 +215,7 @@ button{
  }
 
  .hero-top ,.hero-bottom{
-    background: url("photos/photo2.png") center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.306),rgba(0, 0, 0, 0.728)), url("photos/photo2.png") center no-repeat;
     background-size: cover;
     flex-grow: 1;
     border-radius: 10px;
@@ -650,3 +650,95 @@ div.product-card:hover{
 
 
 
+/* Footer Start  */
+
+  footer{
+    background-color: white;
+    margin-top: 30px;
+
+  }
+
+
+  .footer{
+    padding:30px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: #7e7a7a;
+    
+  }
+
+  .footer div{
+    flex-basis: 25%;
+  }
+
+
+  div.footer .logo p{
+   padding-top: 20px;
+   margin-left: 10px;
+   line-height: 1.4rem;
+
+  }
+  
+  div.footer h3{
+
+    color: black;
+    padding-bottom: 18px;
+
+  }
+
+  div.footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+  }
+ 
+  div.footer ul li{
+    list-style: none;
+  }
+
+  div.footer ul li a{
+    text-decoration: none;
+    color: #7e7a7a;
+    font-size: 14px;
+
+  }
+
+  div.icon{
+    display: flex;
+    gap: 15px;
+  }
+
+  div.icon i{
+    font-size: 25px;
+    color: white;
+    background-color: #5A75FF;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+ div.copy-wright{
+    padding-block: 30px;
+    padding-inline: 20px;
+    border-top: 1px solid #d2d1d1;
+    font-size: 12px;
+    color: #7e7a7a;
+ }
+
+/* Footer End  */
+
+span.messenger {
+    padding: 10px 15px;
+    background-color: #3956e7;
+    color: white;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    font-size: 18px;
+}
+span.messenger i{
+    font-size: 20px;
+}
