@@ -527,3 +527,86 @@ div.product-card:hover{
 
 /* New-Arrival End  */
 
+
+/* .catagory start  */
+
+#Catagory{
+    padding-inline: 20px;
+    padding-top: 40px;
+}
+
+
+#Catagory h3{
+
+    font-weight: 500;
+    padding-block:25px ;
+
+}
+
+
+.catagory{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.catagory .t-shirt, .catagory .stickers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.c-name{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+/* .catagory End */
+
+
+/* Devoloper Feed-back Start  */
+
+
+ #Devoloper-Feedback{
+    padding-inline: 20px;
+    padding-top: 40px;
+ }
+
+ #Devoloper-Feedback h2{
+
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+
+ }
+
+ #Devoloper-Feedback p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #827b7b;
+ }
+ .feedback{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+ }
+
+ .feed1{
+    flex-basis: 30%;
+
+ }
+
+ .feed1 img{
+    width: 100%;
+ }
+
+
+
+/* Devoloper Feed-back End  */
+
