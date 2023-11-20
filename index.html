@@ -3,40 +3,837 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca:wght@100;300;400;500;600;700&family=Poppins:ital@1&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">    
     <title>DevShop Clone | Naimur X Sourav</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/234eb35d05.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="main">
 
-        <!-- Heading Part -->
+  <!-- Head Section Start -->
+  
+  <header>
+    <div id="header">
+        <div class="logo"> <img src="photos/logo.png" alt="Logo"></div>
 
-        <div class="header">
-            <div class="logo-div">
-                <img src="photos/logo.png" alt="DevShop" class="logo">
+       <div class="search-bar"> 
+        <input type="text" placeholder="Search for products">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+       
+       <div class="call-us">
+        <i class="fa-solid fa-phone"></i>
+        <div class="number">
+            <p>Call Us</p>
+            <a href="#">+88 01764485751</a>
+        </div>
+        </div>
+
+        <div class="shiping">
+            <i class="fa-brands fa-firefox-browser"></i>
+            <div class="browser">
+                <p>Worldwid Shiping</p>
+                <a href="#">Shiping Worldwid </a>
             </div>
-            <div class="search-box">
-                <input type="search" name="" id="search" placeholder="Search here">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-            <div class="contact">
-                <i class="fa-solid fa-phone-volume"></i>
-                <div class="sub-contact">
-                    <p>Call Us</p>
-                    <p class="color">+8801701927985</p>
-                </div>
-            </div>
-            <div class="abroad">
-                <i class="fa-solid fa-earth-americas"></i>
-                <div>
-                    <p>Worldwide Shipping</p>
-                    <p class="color">Shipping Worldwide</p>
-                </div>
-            </div>
+    
         </div>
 
     </div>
+  </header>
+   
+  <!-- Head Section End -->
+
+  
+  <!-- nav-section start  -->
+
+  <nav>
+    <div id="nav">
+        <div class="menu">
+        
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Brands Products</a></li>
+                <li><a href="#">Custom Wear</a></li>
+                <li><a href="#">Our Contacts</a></li>
+            </ul>
+
+
+
+        </div>
+        <div class="user-cart">
+           
+            <i class="fa-regular fa-user"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping shoping-cart" ></i>
+            <p>0.00 TK</p>
+
+
+        </div>
+    </div>
+  </nav>
+  <!-- nav-section End  -->
+
+
+
+  <!-- hero section Start  -->
+
+   <section id="hero">
+
+  <div class="hero">
+     <div class="left">
+      
+        <h2>New Arrival Python and </h2>
+        <h2>Node T-Shirt</h2>
+        <p>For Python and Nodes Js Devoloper</p>
+        <button>Shop Now</button>
+
+     </div>
+
+     <div class="right">
+        
+        <div class="hero-top">
+            <h3>New shirt.jsx</h3>
+            <h3>shirt.js T-shirt</h3>
+            <div class="p">
+            <p>For React and </p>
+            <p>JavaScript Devolopers</p></div>
+            <button>Get T-Shirt</button>
+        </div>
+        <div class="hero-bottom">
+            <h3>New Stickers!</h3>
+            <p>For Devolopers!</p>
+            <button>Get New Stickers!</button>
+        </div>
+
+     </div>
+  </div>
+
+   </section>
+
+  <!-- hero section End  -->
+
+
+  <!-- Feature Products Start  -->
+
+  <section id="Feature">
+  
+   <div class="title">
+    <h2>Feature Products</h2>
+    <button>More Products <i class="fa-solid fa-arrow-right"></i></button>
+   </div>
+
+    
+   <!-- feature-product  -->
+   
+
+   <div class="feature-product">
+      
+    <!-- item 1 -->
+
+    <div class="product-card">
+        <div class="img">
+          <img
+            src="https://devshopbd.com/wp-content/uploads/2023/05/js-developer.png"
+            alt="product image"/>
+  
+            
+            <div class="tag">
+              <div class="discount">-13%</div>
+              <div class="hot">HOT</div>
+              <div class="new">NEW</div>
+            </div>
+            <div class="love-main">
+            <div class="love">
+              <i class="fa-regular fa-heart"></i>
+            </div></div>
+        </div>
+  
+        <div class="description">
+          <h3>JavaScript Devoloper T-shirt</h3>
+          <p class="catagory">T-shirt</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+  
+          <p class="stock"><i class="fa-solid fa-check"></i> In stock</p>
+          <div class="price-color">
+            <p class="price">350.00 TK</p>
+            <div class="color"></div>
+          </div>
+          <button class="cart"><i class="fa-solid fa-cart-shopping"></i></button>
+          <div class="sku">
+            <span>SKU:</span>
+            <span>Dsbo5js01db</span>
+          </div>
+  
+          <div class="hide-text">
+              <p> <span>Color:</span> Black</p>
+              <p><span>Size:</span> M,L,XL,XXL</p>
+        
+            </div>
+        </div>
+  
+      </div>
+  
+
+      <div class="product-card">
+        <div class="img">
+          <img
+            src="https://devshopbd.com/wp-content/uploads/2023/05/ds-js-shirt-js.png"
+            alt="product image"/>
+  
+            
+            <div class="tag">
+              <div class="discount">-13%</div>
+              <div class="new">NEW</div>
+            </div>
+            <div class="love-main">
+            <div class="love">
+              <i class="fa-regular fa-heart"></i>
+            </div></div>
+        </div>
+  
+        <div class="description">
+          <h3>JavaScript Devoloper T-shirt</h3>
+          <p class="catagory">T-shirt</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+  
+          <p class="stock"><i class="fa-solid fa-check"></i> In stock</p>
+          <div class="price-color">
+            <p class="price">350.00 TK</p>
+            <div class="color"></div>
+          </div>
+          <button class="cart"><i class="fa-solid fa-cart-shopping"></i></button>
+          <div class="sku">
+            <span>SKU:</span>
+            <span>Dsbo5js01db</span>
+          </div>
+  
+          <div class="hide-text">
+              <p> <span>Color:</span> Black</p>
+              <p><span>Size:</span> M,L,XL,XXL</p>
+        
+            </div>
+        </div>
+  
+      </div>
+
+
+      <div class="product-card">
+        <div class="img">
+          <img
+            src="https://devshopbd.com/wp-content/uploads/2023/05/js-developer.png"
+            alt="product image"/>
+  
+            
+            <div class="tag">
+              <div class="discount">-13%</div>
+              <div class="hot">HOT</div>
+              <div class="new">NEW</div>
+            </div>
+            <div class="love-main">
+            <div class="love">
+              <i class="fa-regular fa-heart"></i>
+            </div></div>
+        </div>
+  
+        <div class="description">
+          <h3>JavaScript Devoloper T-shirt</h3>
+          <p class="catagory">T-shirt</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+  
+          <p class="stock"><i class="fa-solid fa-check"></i> In stock</p>
+          <div class="price-color">
+            <p class="price">350.00 TK</p>
+            <div class="color"></div>
+          </div>
+          <button class="cart"><i class="fa-solid fa-cart-shopping"></i></button>
+          <div class="sku">
+            <span>SKU:</span>
+            <span>Dsbo5js01db</span>
+          </div>
+  
+          <div class="hide-text">
+              <p> <span>Color:</span> Black</p>
+              <p><span>Size:</span> M,L,XL,XXL</p>
+        
+            </div>
+        </div>
+
+  
+      </div>
+
+
+
+      <div class="product-card">
+        <div class="img">
+          <img
+            src="https://devshopbd.com/wp-content/uploads/2023/05/mountain-t-shirt.png"
+            alt="product image"/>
+  
+            
+            <div class="tag">
+              <div class="discount">-13%</div>
+              <div class="new">NEW</div>
+            </div>
+            <div class="love-main">
+            <div class="love">
+              <i class="fa-regular fa-heart"></i>
+            </div></div>
+        </div>
+  
+        <div class="description">
+          <h3>JavaScript Devoloper T-shirt</h3>
+          <p class="catagory">T-shirt</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+  
+          <p class="stock"><i class="fa-solid fa-check"></i> In stock</p>
+          <div class="price-color">
+            <p class="price">350.00 TK</p>
+            <div class="color"></div>
+          </div>
+          <button class="cart"><i class="fa-solid fa-cart-shopping"></i></button>
+          <div class="sku">
+            <span>SKU:</span>
+            <span>Dsbo5js01db</span>
+          </div>
+  
+          <div class="hide-text">
+              <p> <span>Color:</span> Black</p>
+              <p><span>Size:</span> M,L,XL,XXL</p>
+        
+            </div>
+        </div>
+  
+
+  
+      </div>
+
+
+
+      <div class="product-card">
+        <div class="img">
+          <img
+            src="https://devshopbd.com/wp-content/uploads/2023/05/ds-react-shirt-jsx.png"
+            alt="product image"/>
+  
+            
+            <div class="tag">
+              <div class="discount">-13%</div>
+
+            </div>
+            <div class="love-main">
+            <div class="love">
+              <i class="fa-regular fa-heart"></i>
+            </div></div>
+        </div>
+  
+        <div class="description">
+          <h3>JavaScript Devoloper T-shirt</h3>
+          <p class="catagory">T-shirt</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+  
+          <p class="stock"><i class="fa-solid fa-check"></i> In stock</p>
+          <div class="price-color">
+            <p class="price">350.00 TK</p>
+            <div class="color"></div>
+          </div>
+          <button class="cart"><i class="fa-solid fa-cart-shopping"></i></button>
+          <div class="sku">
+            <span>SKU:</span>
+            <span>Dsbo5js01db</span>
+          </div>
+  
+          <div class="hide-text">
+              <p> <span>Color:</span> Black</p>
+              <p><span>Size:</span> M,L,XL,XXL</p>
+        
+            </div>
+        </div>
+  
+      </div>
+  
+      </div>
+
+
+
+      
+
+
+   </div>
+</section>
+
+  <!-- Feature Products End  -->  
+
+  <!-- New Arrai Products Start  -->
+
+  <section id="New-Arrival">
+  
+   <div class="title">
+    <h2>New Arrival</h2>
+    <button>More Products <i class="fa-solid fa-arrow-right"></i></button>
+   </div>
+
+    
+   <!-- feature-product  -->
+   
+
+   <div class=" New-Arrival-Product">
+      
+    <!-- item 1 -->
+
+    <div class="product-card">
+        <div class="img">
+          <img
+            src="https://devshopbd.com/wp-content/uploads/2023/05/js-developer.png"
+            alt="product image"/>
+  
+            
+            <div class="tag">
+              <div class="discount">-13%</div>
+    
+              <div class="new">NEW</div>
+            </div>
+            <div class="love-main">
+            <div class="love">
+              <i class="fa-regular fa-heart"></i>
+            </div></div>
+        </div>
+  
+        <div class="description">
+          <h3>JavaScript Devoloper T-shirt</h3>
+          <p class="catagory">T-shirt</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+  
+          <p class="stock"><i class="fa-solid fa-check"></i> In stock</p>
+          <div class="price-color">
+            <p class="price">350.00 TK</p>
+            <div class="color"></div>
+          </div>
+          <button class="cart"><i class="fa-solid fa-cart-shopping"></i></button>
+          <div class="sku">
+            <span>SKU:</span>
+            <span>Dsbo5js01db</span>
+          </div>
+  
+          <div class="hide-text">
+              <p> <span>Color:</span> Black</p>
+              <p><span>Size:</span> M,L,XL,XXL</p>
+        
+            </div>
+        </div>
+  
+      </div>
+  
+
+      <div class="product-card">
+        <div class="img">
+          <img
+            src="https://devshopbd.com/wp-content/uploads/2023/05/mountain-t-shirt.png"
+            alt="product image"/>
+  
+            
+            <div class="tag">
+              <div class="discount">-13%</div>
+              <div class="hot">HOT</div>
+              <div class="new">NEW</div>
+            </div>
+            <div class="love-main">
+            <div class="love">
+              <i class="fa-regular fa-heart"></i>
+            </div></div>
+        </div>
+  
+        <div class="description">
+          <h3>JavaScript Devoloper T-shirt</h3>
+          <p class="catagory">T-shirt</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+  
+          <p class="stock"><i class="fa-solid fa-check"></i> In stock</p>
+          <div class="price-color">
+            <p class="price">350.00 TK</p>
+            <div class="color"></div>
+          </div>
+          <button class="cart"><i class="fa-solid fa-cart-shopping"></i></button>
+          <div class="sku">
+            <span>SKU:</span>
+            <span>Dsbo5js01db</span>
+          </div>
+  
+          <div class="hide-text">
+              <p> <span>Color:</span> Black</p>
+              <p><span>Size:</span> M,L,XL,XXL</p>
+        
+            </div>
+        </div>
+  
+      </div>
+
+
+      <div class="product-card">
+        <div class="img">
+          <img
+            src="https://devshopbd.com/wp-content/uploads/2023/05/js-developer.png"
+            alt="product image"/>
+  
+            
+            <div class="tag">
+              <div class="discount">-13%</div>
+              <div class="hot">HOT</div>
+              <div class="new">NEW</div>
+            </div>
+            <div class="love-main">
+            <div class="love">
+              <i class="fa-regular fa-heart"></i>
+            </div></div>
+        </div>
+  
+        <div class="description">
+          <h3>JavaScript Devoloper T-shirt</h3>
+          <p class="catagory">T-shirt</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+  
+          <p class="stock"><i class="fa-solid fa-check"></i> In stock</p>
+          <div class="price-color">
+            <p class="price">350.00 TK</p>
+            <div class="color"></div>
+          </div>
+          <button class="cart"><i class="fa-solid fa-cart-shopping"></i></button>
+          <div class="sku">
+            <span>SKU:</span>
+            <span>Dsbo5js01db</span>
+          </div>
+  
+          <div class="hide-text">
+              <p> <span>Color:</span> Black</p>
+              <p><span>Size:</span> M,L,XL,XXL</p>
+        
+            </div>
+        </div>
+
+  
+      </div>
+
+
+
+      <div class="product-card">
+        <div class="img">
+          <img
+            src="https://devshopbd.com/wp-content/uploads/2023/05/mountain-t-shirt.png"
+            alt="product image"/>
+  
+            
+            <div class="tag">
+    
+              <div class="hot">HOT</div>
+              <div class="new">NEW</div>
+            </div>
+            <div class="love-main">
+            <div class="love">
+              <i class="fa-regular fa-heart"></i>
+            </div></div>
+        </div>
+  
+        <div class="description">
+          <h3>JavaScript Devoloper T-shirt</h3>
+          <p class="catagory">T-shirt</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+  
+          <p class="stock"><i class="fa-solid fa-check"></i> In stock</p>
+          <div class="price-color">
+            <p class="price">350.00 TK</p>
+            <div class="color"></div>
+          </div>
+          <button class="cart"><i class="fa-solid fa-cart-shopping"></i></button>
+          <div class="sku">
+            <span>SKU:</span>
+            <span>Dsbo5js01db</span>
+          </div>
+  
+          <div class="hide-text">
+              <p> <span>Color:</span> Black</p>
+              <p><span>Size:</span> M,L,XL,XXL</p>
+        
+            </div>
+        </div>
+  
+
+  
+      </div>
+
+
+
+      <div class="product-card">
+        <div class="img">
+          <img
+            src="https://devshopbd.com/wp-content/uploads/2023/05/ds-react-shirt-jsx.png"
+            alt="product image"/>
+  
+            
+            <div class="tag">
+              <div class="discount">-13%</div>
+              <div class="hot">HOT</div>
+              
+            </div>
+            <div class="love-main">
+            <div class="love">
+              <i class="fa-regular fa-heart"></i>
+            </div></div>
+        </div>
+  
+        <div class="description">
+          <h3>JavaScript Devoloper T-shirt</h3>
+          <p class="catagory">T-shirt</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+  
+          <p class="stock"><i class="fa-solid fa-check"></i> In stock</p>
+          <div class="price-color">
+            <p class="price">350.00 TK</p>
+            <div class="color"></div>
+          </div>
+          <button class="cart"><i class="fa-solid fa-cart-shopping"></i></button>
+          <div class="sku">
+            <span>SKU:</span>
+            <span>Dsbo5js01db</span>
+          </div>
+  
+          <div class="hide-text">
+              <p> <span>Color:</span> Black</p>
+              <p><span>Size:</span> M,L,XL,XXL</p>
+        
+            </div>
+        </div>
+  
+      </div>
+  
+      </div>
+
+
+
+      
+
+
+   </div>
+</section>
+
+  <!-- New Arrive  End  -->  
+
+
+  <!-- Catagory section Start  -->
+
+     <section id="Catagory">
+       <h3>Popular Categories</h3>
+
+       <div class="catagory">
+        <div class="t-shirt">
+
+            <img src="photos/asset 8.png" alt="T-Shirt">
+            <p class="c-name">T-Shirt</p>
+            <p>17 product</p>
+
+        </div>
+
+        <div class="stickers">
+
+                <img src="photos/asset 9.png" alt="Stickers">
+                <p class="c-name">Stickers</p>
+                <p>2 product</p>
+    
+            </div>
+
+        </div>
+       </div>
+
+
+
+
+
+
+
+     </section>   
+   
+
+  <!-- Catagory section End  -->
+
+
+  <!-- Devoloper Feed back  Start -->
+ 
+  <section id="Devoloper-Feedback">
+   
+    <h2>What Developer Say?</h2>
+
+    <div class="feedback">
+        <div class="feed1">
+            <img src="https://devshopbd.com/wp-content/uploads/2023/05/review4.png" alt="first">
+        </div>
+        <div class="feed1">
+            <img src="https://devshopbd.com/wp-content/uploads/2023/05/review3.png">
+        </div>
+        <div class="feed1">
+            <img src="https://devshopbd.com/wp-content/uploads/2023/05/review4.png" alt="first">
+        </div>
+        <div class="feed1">
+            <img src="https://devshopbd.com/wp-content/uploads/2023/05/review2.png" alt="first">
+        </div>
+        <div class="feed1">
+            <img src="https://devshopbd.com/wp-content/uploads/2023/05/review5.png" alt="first">
+        </div>
+        <div class="feed1">
+            <img src="https://devshopbd.com/wp-content/uploads/2023/05/review6.png" alt="first">
+        </div>
+    </div>
+     <p>Check out more awesome review in our Facebook page! </p>
+  </section>
+
+
+  <!-- Devoloper Feed back  End -->
+
+
+
+   <!-- About-me Start  -->
+
+   <section id="About-me">
+    <div class="about-me">
+        <h2>
+            The DevShop BD provides Largest Collection of Developer Belongings!
+        </h2>
+
+        <p>
+            DevShop BD is a one-stop shop for all your developer needs. We have the largest collection of developer t-shirts, mugs, stickers, and more. Our products are of the highest quality and we have a proven track record of customer satisfaction. More than a thousand developers have bought products from us and we are proud to say that we have a 100% satisfaction rate. We are committed to providing our customers with the best possible products and services. We also take orders for custom t-shirts from developer companies and brands.
+        </p>
+
+        <button> Read More <i class="fa-solid fa-chevron-down"></i></button>
+
+    </div>
+   </section>
+
+   <!-- About-me End  -->
+  
+
+   <!-- Footer Start  -->
+
+  <footer>
+    <div class="footer">
+
+        <div class="logo">
+            <img src="photos/logo.png" alt="logo">
+            <p>DevShop BD is a Software Developer Oriented online e-commerce shop in Bangladesh.</p>
+        </div>
+     
+         <div class="Categories">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">Developer T-shirt</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">Mugs</a></li>
+                <li><a href="#">Wall Frames</a></li>
+            </ul>
+         </div>
+
+
+         <div class="useful-links">
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="#">Brands Products</a></li>
+                <li><a href="#">Custom Wear</a></li>
+                <li><a href="#">Delivery & Return</a></li>
+                <li><a href="#">Job</a></li>
+                <li><a href="#">Our Contacts</a></li>
+            </ul>
+         </div>
+
+         
+         <div class="follow">
+            <h3>Follow us</h3>
+            <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i></div>
+         </div>
+    </div>
+
+    <div class="copy-wright">
+        <div class="copy">
+            <p>Sourav Hemnagar <i class="fa-regular fa-copyright"></i> 2023</p>
+        </div>
+
+        
+    </div>
+  </footer>
+
+
+  <!-- Footer End  -->
+
+
+  <span class="messenger">
+    <i class="fa-brands fa-facebook-messenger"></i> Chat
+  </span>
+
+
+
+  <script src="https://kit.fontawesome.com/c938b44cae.js" crossorigin="anonymous"></script>
 </body>
 </html>
