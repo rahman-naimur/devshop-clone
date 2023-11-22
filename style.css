@@ -20,6 +20,7 @@ button{
     cursor: pointer;
 }
 
+
 /* Header-section Start  */
 
  header{
@@ -33,6 +34,7 @@ button{
    padding-inline: 20px;
    padding-block: 20px;
    background-color: white;
+   gap: 20px;
  }
 
  div.logo img{
@@ -45,14 +47,15 @@ button{
    display: flex;
    align-items: center;
    gap: 10px;
+   width: 500px;
    
  }
 
  div.search-bar input{
   border: 1px solid rgb(232, 221, 221);
-  width: 500px;
   padding: 12px;
   border-radius: 6px;
+  width: 100%;
  }
 
  div.search-bar i{
@@ -154,8 +157,7 @@ button{
     display: flex;
     padding-top: 20px;
     margin-inline: 20px;
-    justify-content: space-between;
-    height: 460px;
+    min-height: 460px;
     gap: 20px;
 
     
@@ -291,8 +293,8 @@ button{
     padding-top: 40px;
     display: flex;
     gap: 10px;
-    flex-wrap: wrap;
- 
+    
+    
     
   }
 
@@ -302,7 +304,6 @@ button{
 
   div.product-card{
     background-color: white;
-    width:250px ;
     padding:10px ;
     display: flex;
     flex-direction: column;
@@ -310,7 +311,7 @@ button{
     box-shadow: 0px 0px  1px #c3c4c7;
     border-radius: 10px;
     transition: 0.4s ease transform;
-    flex-grow: 1;
+   
     
  
 
@@ -665,6 +666,7 @@ div.product-card:hover{
     align-items: flex-start;
     justify-content: space-around;
     color: #7e7a7a;
+    
     
   }
 
